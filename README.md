@@ -1,5 +1,7 @@
 # Expense Voucher Management System
 
+GitHub repository: https://github.com/Kanak1009/expense-voucher-management-system.git
+
 A full-stack web application that digitises the expense voucher process: **Employees** create and submit vouchers, the **Director** approves or rejects them (with signature / rejection reason), and the **Accounts Team** monitors everything for reimbursement.
 
 | Layer | Technology |
