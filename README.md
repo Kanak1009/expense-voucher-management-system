@@ -185,3 +185,35 @@ Response: `{ data: [...], pagination: { page, limit, total, totalPages } }`.
 9. Uploaded files are stored on local disk (`backend/uploads`); for production use S3/Cloudinary.
 10. A rejected voucher stays rejected (read-only). The brief doesn't describe resubmission, so the employee creates a new voucher.
 11. Download/print is implemented via the browser print dialog (Save as PDF) using print CSS.
+
+
+## Screenshots
+
+### Login
+![Login](screenshots/01-login.png)
+
+### Employee
+| Dashboard | Create Voucher |
+|---|---|
+| ![Employee Dashboard](screenshots/02-employee-dashboard.png) | ![Create Voucher](screenshots/03-create-voucher-validation.png) |
+
+| My Vouchers | Validation Errors |
+|---|---|
+| ![My Vouchers](screenshots/04-my-vouchers.png) | ![Validation Errors](screenshots/12-validation-errors.png) |
+
+### Voucher Details
+| Approved | Rejected |
+|---|---|
+| ![Approved](screenshots/05-voucher-approved.png) | ![Rejected](screenshots/06-voucher-rejected.png) |
+
+### Director
+| Dashboard | All Vouchers |
+|---|---|
+| ![Director Dashboard](screenshots/07-director-dashboard.png) | ![Director All Vouchers](screenshots/08-director-all-vouchers.png) |
+
+![Pending Approvals](screenshots/09-director-pending-vouchers.png)
+
+### Accounts Team
+| Dashboard | All Vouchers |
+|---|---|
+| ![Accounts Dashboard](screenshots/10-accounts-dashboard.png) | ![Accounts All Vouchers](screenshots/11-accounts-all-vouchers.png) |
